@@ -1,0 +1,13 @@
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe.config
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.pdb
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.AssemblyReference.cache
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.SuggestedBindingRedirects.cache
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Main.resources
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Properties.Resources.resources
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.GenerateResource.cache
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CoreCompileInputs.cache
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.exe
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.pdb
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CopyComplete
+D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\bin\Debug\Guna.UI2.dll
