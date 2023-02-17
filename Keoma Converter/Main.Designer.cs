@@ -42,6 +42,7 @@
             this.ResetBtn = new Guna.UI2.WinForms.Guna2Button();
             this.StartBtn = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.OptionalLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // CrossLabel
@@ -91,9 +92,10 @@
             this.PathTxtBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
             this.PathTxtBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.PathTxtBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.PathTxtBox.Enabled = false;
             this.PathTxtBox.FillColor = System.Drawing.Color.Gainsboro;
             this.PathTxtBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.PathTxtBox.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PathTxtBox.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PathTxtBox.ForeColor = System.Drawing.Color.Black;
             this.PathTxtBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.PathTxtBox.Location = new System.Drawing.Point(76, 86);
@@ -101,12 +103,14 @@
             this.PathTxtBox.Name = "PathTxtBox";
             this.PathTxtBox.PasswordChar = '\0';
             this.PathTxtBox.PlaceholderForeColor = System.Drawing.Color.DimGray;
-            this.PathTxtBox.PlaceholderText = "Upload or Drop a picture here";
+            this.PathTxtBox.PlaceholderText = "Select Operation";
             this.PathTxtBox.ReadOnly = true;
             this.PathTxtBox.SelectedText = "";
             this.PathTxtBox.Size = new System.Drawing.Size(466, 45);
             this.PathTxtBox.TabIndex = 3;
             this.PathTxtBox.WordWrap = false;
+            this.PathTxtBox.DragDrop += new System.Windows.Forms.DragEventHandler(this.PathTxtBox_DragDrop);
+            this.PathTxtBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.PathTxtBox_DragEnter);
             // 
             // OperationComboBox
             // 
@@ -132,6 +136,7 @@
             this.OperationComboBox.Size = new System.Drawing.Size(190, 36);
             this.OperationComboBox.StartIndex = 0;
             this.OperationComboBox.TabIndex = 4;
+            this.OperationComboBox.SelectedIndexChanged += new System.EventHandler(this.OperationComboBox_SelectedIndexChanged);
             // 
             // LossLessCheckBox
             // 
@@ -228,6 +233,7 @@
             this.UploadBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.UploadBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.UploadBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UploadBtn.Enabled = false;
             this.UploadBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UploadBtn.ForeColor = System.Drawing.Color.White;
             this.UploadBtn.Location = new System.Drawing.Point(76, 308);
@@ -235,6 +241,7 @@
             this.UploadBtn.Size = new System.Drawing.Size(129, 45);
             this.UploadBtn.TabIndex = 9;
             this.UploadBtn.Text = "Upload";
+            this.UploadBtn.Click += new System.EventHandler(this.UploadBtn_Click);
             // 
             // ResetBtn
             // 
@@ -259,6 +266,7 @@
             this.StartBtn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.StartBtn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.StartBtn.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.StartBtn.Enabled = false;
             this.StartBtn.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StartBtn.ForeColor = System.Drawing.Color.White;
             this.StartBtn.Location = new System.Drawing.Point(247, 308);
@@ -266,6 +274,7 @@
             this.StartBtn.Size = new System.Drawing.Size(129, 45);
             this.StartBtn.TabIndex = 11;
             this.StartBtn.Text = "Start";
+            this.StartBtn.Click += new System.EventHandler(this.StartBtn_Click);
             // 
             // label1
             // 
@@ -278,12 +287,24 @@
             this.label1.TabIndex = 12;
             this.label1.Text = "Developer: Salvador Mucavele @ 2023 - salvadormucavel.vercel.app";
             // 
+            // OptionalLabel
+            // 
+            this.OptionalLabel.AutoSize = true;
+            this.OptionalLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OptionalLabel.Location = new System.Drawing.Point(73, 264);
+            this.OptionalLabel.Name = "OptionalLabel";
+            this.OptionalLabel.Size = new System.Drawing.Size(103, 15);
+            this.OptionalLabel.TabIndex = 13;
+            this.OptionalLabel.Text = "(Optional for Gifs)";
+            this.OptionalLabel.Visible = false;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(623, 406);
+            this.Controls.Add(this.OptionalLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.StartBtn);
             this.Controls.Add(this.ResetBtn);
@@ -302,7 +323,6 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "KEOMA Converter";
-            this.Load += new System.EventHandler(this.Main_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Main_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Main_MouseMove);
             this.ResumeLayout(false);
@@ -325,6 +345,7 @@
         private Guna.UI2.WinForms.Guna2Button ResetBtn;
         private Guna.UI2.WinForms.Guna2Button StartBtn;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label OptionalLabel;
     }
 }
 

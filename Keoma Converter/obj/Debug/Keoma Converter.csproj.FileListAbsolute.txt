@@ -11,3 +11,29 @@ D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter
 D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.pdb
 D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CopyComplete
 D:\C0D1NG\Ficheiros\C#\Keoma Converter\Keoma Converter\bin\Debug\Guna.UI2.dll
+F:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe.config
+F:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe
+F:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.pdb
+F:\Keoma Converter\Keoma Converter\bin\Debug\Guna.UI2.dll
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.AssemblyReference.cache
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.SuggestedBindingRedirects.cache
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Main.resources
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Properties.Resources.resources
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.GenerateResource.cache
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CoreCompileInputs.cache
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CopyComplete
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.exe
+F:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.pdb
+G:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe.config
+G:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.exe
+G:\Keoma Converter\Keoma Converter\bin\Debug\Keoma Converter.pdb
+G:\Keoma Converter\Keoma Converter\bin\Debug\Guna.UI2.dll
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.AssemblyReference.cache
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.SuggestedBindingRedirects.cache
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Main.resources
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma_Converter.Properties.Resources.resources
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.GenerateResource.cache
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CoreCompileInputs.cache
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.csproj.CopyComplete
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.exe
+G:\Keoma Converter\Keoma Converter\obj\Debug\Keoma Converter.pdb
